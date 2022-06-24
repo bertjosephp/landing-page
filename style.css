@@ -1,0 +1,47 @@
+.header-container {
+    background-color: #1F2937;
+}
+
+.hero-container {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 800;
+}
+
+.footer-container {
+    background-color: #1F2937;
+}

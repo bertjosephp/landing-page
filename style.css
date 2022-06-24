@@ -1,34 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
 .header-container {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.header-logo img {
+    width: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #E5E7EB;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    font-size: 20px;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+    margin-left: auto;
 }
 
 .hero-container {
     background-color: #1F2937;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero-description {
+    flex-basis: 720px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+    margin-bottom: 16px;
 }
 
-p {
+.hero-description p {
     font-size: 18px;
     color: #E5E7EB;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+    margin-bottom: 32px;
 }
 
 button {
     background-color: #3882F6;
+    padding: 8px 32px;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.hero-image img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 120px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-bottom: 48px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.item img {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border-color: #1F2937;
+    border-width: 10px;
 }
 
 .quote-container {
     background-color: #E5E7EB;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 .quote-text {
@@ -36,12 +128,58 @@ h2 {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    max-width: 900px;
+    text-align: center;
 }
 
 .quote-author {
+    font-size: 24px;
     font-weight: 800;
+}
+
+.white-space {
+    margin: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    width: 60em;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.signup-text h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+
+.signup-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+
+.signup-button {
+    border: 2px solid;
+    border-color: white;
+    flex-grow: 0;
 }
 
 .footer-container {
     background-color: #1F2937;
+    font-size: 20px;
+    color: #E5E7EB;
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
